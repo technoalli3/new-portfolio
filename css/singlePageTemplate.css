@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-@font-face {
+@font-face {	
     font-family: 'BronzeAge';
-    src: url("/assets/fonts/BronzeAge.ttf") format("truetype");
+    src: url("../assets/fonts/BronzeAge.ttf") format("truetype");
 }
 @font-face {
 	font-family: 'MolganRegular';
-	src: url("/assets/fonts/MolganRegular.otf");
+	src: url("../assets/fonts/MolganRegular.otf") format("opentype");
 }
 
 /* Body */
@@ -81,9 +81,10 @@ body {
 .page-title {
 	padding-left:5%;
 	padding-top:30px;
-	font-size:250%;
+	font-size:400%;
 	color: white;
 	text-decoration: underline;
+	font-family:BronzeAge;
 }
 
 .projects-list {
