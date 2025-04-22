@@ -13,6 +13,10 @@
 	src: url("../assets/fonts/LostAges.ttf") format("truetype");
 }
 
+#name {
+	font-family:"MolganRegular";
+}
+
 /* Body */
 body {
 	font-family: "LostAges";
@@ -475,6 +479,7 @@ nav ul li {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	color: #043745;
+	font-family:"Consolas";
 }
 .container header nav {
 	margin-top: 0px;
