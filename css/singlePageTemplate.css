@@ -17,6 +17,14 @@
 	font-family:"MolganRegular";
 }
 
+html {
+	cursor:url("cat_cursor.png"), default;
+}
+
+a:hover {
+	cursor:url("pointer.png"), pointer;
+}
+
 /* Body */
 body {
 	font-family: "LostAges";
@@ -354,7 +362,7 @@ footer .footer_column p {
 .button:hover {
 	background-color: #FEFEFE;
 	color: #C4C4C4;
-	cursor: pointer;
+	cursor:url("pointer.png"), pointer;
 }
 .copyright {
 	text-align: center;
@@ -366,7 +374,7 @@ footer .footer_column p {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
-	font-family: "Consolas";
+	font-family: "MolganRegular";
 }
 .footer_banner {
 	background-color: #B3B3B3;
