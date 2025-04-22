@@ -13,6 +13,18 @@
 	src: url("../assets/fonts/LostAges.ttf") format("truetype");
 }
 
+@keyframes wiggle {
+	0% {
+		transform: rotate(-2.5deg);
+	}
+	50% {
+		transform: rotate(2.5deg);
+	}
+	100% {
+		transform: rotate(-2.5deg);
+	}
+}
+
 #name {
 	font-family:"MolganRegular";
 }
@@ -87,7 +99,10 @@ body {
 }
 
 .project-grid-img:hover {
-	filter: invert(100%);
+	/*filter: invert(100%);*/
+	animation-name: wiggle;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
 }
 
 /* Images inside grid on project page */
