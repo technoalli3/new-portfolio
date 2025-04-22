@@ -8,17 +8,20 @@
 	font-family: 'MolganRegular';
 	src: url("../assets/fonts/MolganRegular.otf") format("opentype");
 }
+@font-face {
+	font-family: 'LostAges';
+	src: url("../assets/fonts/LostAges.ttf") format("truetype");
+}
 
 /* Body */
 body {
-	font-family: "MolganRegular";
+	font-family: "LostAges";
 	background-color: #2E2E34;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	font-style: normal;
-	font-weight: 200;
 }
 /* Container */
 .container {
@@ -27,6 +30,16 @@ body {
 	margin-right: auto;
 	height: 1000px;
 	background-color: #2E2E34;
+}
+
+.contact-section {
+	margin-left: 10%;
+	color: white;
+}
+
+.underline {
+	text-decoration: underline;
+	font-weight: 1000;
 }
 
 /* Grid displaying project samples */
@@ -184,7 +197,6 @@ ul li:hover a {
 	padding-bottom: 50px;
 }
 .light {
-	font-weight: bold;
 	color: #717070;
 }
 .tagline {
@@ -350,6 +362,7 @@ footer .footer_column p {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
+	font-family: "Consolas";
 }
 .footer_banner {
 	background-color: #B3B3B3;
