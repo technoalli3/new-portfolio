@@ -1,7 +1,12 @@
 // JavaScript Document
 	
 function start() {
-	document.getElementById("name").textContent = "TechnoAlli3";
+	const swapElements = document.getElementsByClassName("name-swap");
+	for(let i = 0; i < swapElements.length; i++) {
+		swapElements[i].textContent = "TechnoAlli3";
+	}
+		
+		
 	console.log("I have run");
 	
 	/*let projectCards = document.getElementsByClassName("project-grid-container");

@@ -10,7 +10,7 @@
 }
 @font-face {
 	font-family: 'LostAges';
-	src: url("../assets/fonts/LostAges.ttf") format("truetype");
+	src: url("../assets/fonts/LostAgesFixed.ttf") format("truetype");
 }
 
 @keyframes wiggle {
@@ -25,9 +25,11 @@
 	}
 }
 
-#name {
+
+/*.name-swap {
 	font-family:"MolganRegular";
-}
+}*/
+
 
 html {
 	cursor:url("cursor.png"), default;
