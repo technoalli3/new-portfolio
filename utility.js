@@ -5,17 +5,15 @@ function start() {
 	for(let i = 0; i < swapElements.length; i++) {
 		swapElements[i].textContent = "TechnoAlli3";
 	}
+	
+	document.getElementById("subscribe").addEventListener('click', swap_text);
 		
 		
 	console.log("I have run");
-	
-	/*let projectCards = document.getElementsByClassName("project-grid-container");
-	for(let i = 0; i < projectCards.length; i++) {
-		projectCards[i].addEventListener("mouseover", function(e) {
-			console.log("I have run");
-			e.style.transform = `rotate(${70}deg)`;
-		});
-	}*/
+}
+
+function swap_text() {
+	document.getElementById("subscribe").textContent = "This button does nothing!";
 }
 
 window.onload = start;
